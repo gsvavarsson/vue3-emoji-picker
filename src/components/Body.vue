@@ -14,6 +14,7 @@
           <div class="v3-emojis">
             <button
               v-for="emoji in group"
+              type="button"
               :key="emoji.r"
               @mouseenter="handleMouseEnter(emoji)"
               @click="handleClick(emoji)"
